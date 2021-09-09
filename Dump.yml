@@ -6,5 +6,5 @@
       mysql_db:
         state: dump
         name: all
-        target: /mnt/sql_backups/dump.sql 
+        target: /tmp/dump1.sql 
        
