@@ -6,4 +6,4 @@
       mysql_db:
         state: dump
         name: all
-        target: /tmp/dump.sql
+        target: '/mnt/sql_backups/backup-{{ ansible_date_time.date }}-{{ ansible_date_time.time }}.sql'
