@@ -6,5 +6,5 @@
       mysql_db:
         state: dump
         name: all
-        target: /tmp/dump1.sql 
+        target: /tmp/dump-{{ ansible_date_time.date }}-{{ ansible_date_time.time }}.sql 
        
